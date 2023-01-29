@@ -3,7 +3,10 @@ let input=document.getElementById("evaluatedText");
 let words=document.getElementById("wordCount");
 
 function fun() {
-	words.innerHTML=input.value.length;
+	// if(input.value==""){
+	// 	words.innerText=0;
+	// }
+	words.innerHTML=Number(input.value.length);
 }
 // input.addEventListener("onkeyup" ,()=>{
 // 	words.innerHTML=input.value.length;
